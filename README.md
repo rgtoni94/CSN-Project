@@ -10,7 +10,7 @@ Name - Ricardo Antonio
 - Metasploitable - Vulnerable VM used for practice for hacking into Systems
 - Virutal Box - hypervisor used for creation and managment of Virutal Machines
 
-# Reason why working with Metasploit - 
+# Reason why working with Metasploit 
 Metasploit is industry recognized and used by InfoSec professionals for testing networks for vulnerabilites. By researching this tool and learning how it works, I will gain valuable experience in CyberSecurity.
 
 # Overview of Metasploit
@@ -33,7 +33,7 @@ Tools to download
 
 1. Install Kali Linux and Metasploitable VMs into Virutal Box
 
-2. Remove Kali and Metaspoiltable from your network by changing Network option to Host-only Adapter, so that you don't leave your network vulnerable
+2. Remove Kali and Metasploitable from your network by changing Network option to Host-only Adapter, so that you don't leave your network vulnerable
 
 <img width="597" alt="SNIP-1" src="https://user-images.githubusercontent.com/98781636/167211743-03a9c129-4649-43f2-9e20-ebfc9032a972.PNG">
 

@@ -5,10 +5,10 @@ Software Evaluating - Metasploit
 Name - Ricardo Antonio
 
 # Tools used
----Metasploit - Security Tool that scans machines for known exploits and is able to execute the exploits in a payload on victim machine
----Kali Linux - Pen Testing OS used by InfoSec professionals, comes preinstalled with pen testing software
----Metasploitable - Vulnerable VM used for practice for hacking into Systems
----Virutal Box - hypervisor used for creation and managment of Virutal Machines
+- Metasploit - Security Tool that scans machines for known exploits and is able to execute the exploits in a payload on victim machine
+- Kali Linux - Pen Testing OS used by InfoSec professionals, comes preinstalled with pen testing software
+- Metasploitable - Vulnerable VM used for practice for hacking into Systems
+- Virutal Box - hypervisor used for creation and managment of Virutal Machines
 
 # Reason why working with Metasploit - 
 Metasploit is industry recognized and used by InfoSec professionals for testing networks for vulnerabilites. By researching this tool and learning how it works, I will gain valuable experience in CyberSecurity.
@@ -21,15 +21,15 @@ The workflow of metasploit is as follows:
 - Execute payload against target machine
 
 # Project
-Use Metasploit on a Kali Linux VM to use a vulnerability to exploit vsftpd, VSFTPD a secure unix based ftp server, this vulnerability was disocvered in 2011 in version 2.3.4 of VSFTPD. Exploiting it will give us root access to the Victim Machine.
+Use Metasploit on a Kali Linux VM to use a common exploit to gain access backdoor root access to victim machine. The exploit was discovered in 2011 on the 2.3.4 version of VSFTPD (Very Secure FTP Daemon). VSFTPD is a secure unix based ftp server, this vulnerability was disocvered in 2011 in version 2.3.4 of VSFTPD. 
 
 # Project Setup
 Tools to download
---- Kali linux
---- Metasploitable 2
---- Virtualbox
+- Kali linux
+- Metasploitable 2
+- Virtualbox
 
-Steps
+# Steps
 
 1. Install Kali Linux and Metasploitable VMs into Virutal Box
 
@@ -55,9 +55,10 @@ Steps
 
 <img width="346" alt="SNIP-5" src="https://user-images.githubusercontent.com/98781636/167223117-4365ed65-28c9-46dc-a8bc-7f8c5fc98057.PNG">
 
-8. to find IP address of Metasploitable machine type 'ifconfig' into the shell
+8. To find IP address of Metasploitable machine type 'ifconfig' into the shell
+
 10. Run the 'run' command on the kali machine msf console
 
 <img width="404" alt="SNIP-6" src="https://user-images.githubusercontent.com/98781636/167223155-07305578-62a5-4fe9-a759-299e9cfce4dc.PNG">
 
-11. You know have root access into the machine!
+11. You now have root access into the machine!

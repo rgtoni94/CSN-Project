@@ -33,6 +33,7 @@ Steps
 4. Once Metasploitable VM is started, power on Kali Linux, once in Kali open terminal and run command 'msfconsole' to start metasploit shell
 
 <img width="89" alt="SNIP-2" src="https://user-images.githubusercontent.com/98781636/167217134-6a38eedc-29fe-489b-9fc2-ad5c0633fc14.PNG">
+
 5. Inside the msf shell, run the command 'search vstfpd' to search for the vulnerability by name
 6. Once search reveals location of vulnerability, load it into the payload by typing 'use exploit/unix/ftp/vsftpd_234_backdoor'
 7. set the IP address of the VIctim machine on your shell by typing ' set RHOST [VICTIM IP]

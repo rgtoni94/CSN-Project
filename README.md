@@ -8,7 +8,7 @@ Name - Ricardo Antonio
 - Metasploit - Security Tool that uses known exploits and is able to load and execute them in as a payload on vulnerable victim machines
 - Kali Linux - Pen Testing OS used by InfoSec professionals, comes preinstalled with pen testing software
 - Metasploitable - intentionally vulnerable Linux VM 
-- Virutal Box - hypervisor used for creation and managment of Virutal Machines
+- Virtual Box - hypervisor used for creation and managment of Virutal Machines
 
 # Reason why working with Metasploit 
 Metasploit is industry recognized and used by InfoSec professionals for testing networks for vulnerabilites. By researching this tool and learning how it works, I will gain valuable experience in CyberSecurity.

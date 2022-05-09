@@ -57,8 +57,8 @@ Tools to download
 
 8. To find IP address of Metasploitable machine type 'ifconfig' into the shell
 
-10. Run the 'run' command on the kali machine msf console
+9. Run the 'run' command on the kali machine msf console
 
 <img width="404" alt="SNIP-6" src="https://user-images.githubusercontent.com/98781636/167223155-07305578-62a5-4fe9-a759-299e9cfce4dc.PNG">
 
-11. You now have root access into the machine!
+10. You now have root access into the machine!

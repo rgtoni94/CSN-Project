@@ -21,7 +21,7 @@ The workflow of metasploit is as follows:
 - Execute payload against target machine
 
 # Project
-Use Metasploit on a Kali Linux VM to use an exploit, VSFTPD, to gain access backdoor root access to victim machine. The exploit was discovered in 2011 on the 2.3.4 version of VSFTPD (Very Secure FTP Daemon). VSFTPD is a secure unix based ftp server, this vulnerability was disocvered in 2011 in version 2.3.4 of VSFTPD. 
+Use Metasploit on a Kali Linux VM to use an exploit, VSFTPD, to gain access backdoor root access to victim machine. We will be exploiting the VSFTPD vulnerability. VSFTPD is a secure unix based ftp server, this vulnerability was discovered in 2011 in version 2.3.4 of VSFTPD. 
 
 # Project Setup
 Tools to download

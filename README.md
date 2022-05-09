@@ -5,7 +5,7 @@ Software Evaluating - Metasploit
 Name - Ricardo Antonio
 
 # Tools used
-- Metasploit - Security Tool that scans machines for known exploits and is able to execute the exploits in a payload on victim machine
+- Metasploit - Security Tool that uses known exploits and is able to load and execute them in as a payload on vulnerable victim machines
 - Kali Linux - Pen Testing OS used by InfoSec professionals, comes preinstalled with pen testing software
 - Metasploitable - intentionally vulnerable Linux VM 
 - Virutal Box - hypervisor used for creation and managment of Virutal Machines
@@ -21,7 +21,7 @@ The workflow of metasploit is as follows:
 - Execute payload against target machine
 
 # Project
-Use Metasploit on a Kali Linux VM to use a common exploit to gain access backdoor root access to victim machine. The exploit was discovered in 2011 on the 2.3.4 version of VSFTPD (Very Secure FTP Daemon). VSFTPD is a secure unix based ftp server, this vulnerability was disocvered in 2011 in version 2.3.4 of VSFTPD. 
+Use Metasploit on a Kali Linux VM to use an exploit, VSFTPD, to gain access backdoor root access to victim machine. The exploit was discovered in 2011 on the 2.3.4 version of VSFTPD (Very Secure FTP Daemon). VSFTPD is a secure unix based ftp server, this vulnerability was disocvered in 2011 in version 2.3.4 of VSFTPD. 
 
 # Project Setup
 Tools to download

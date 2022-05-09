@@ -7,7 +7,7 @@ Name - Ricardo Antonio
 # Tools used
 - Metasploit - Security Tool that scans machines for known exploits and is able to execute the exploits in a payload on victim machine
 - Kali Linux - Pen Testing OS used by InfoSec professionals, comes preinstalled with pen testing software
-- Metasploitable - Vulnerable VM used for practice for hacking into Systems
+- Metasploitable - intentionally vulnerable Linux VM 
 - Virutal Box - hypervisor used for creation and managment of Virutal Machines
 
 # Reason why working with Metasploit 

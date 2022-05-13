@@ -39,25 +39,25 @@ Tools to download
 
 3. Start Metasploitable VM on Virtual box, login and password will be msfadmin
 
-4. Once Metasploitable VM is started, power on Kali Linux, once in Kali open terminal and run command >msfconsole to start metasploit shell
+4. Once Metasploitable VM is started, power on Kali Linux, once in Kali open terminal and run command `msfconsole` to start metasploit shell
 
 <img width="89" alt="SNIP-2" src="https://user-images.githubusercontent.com/98781636/167217134-6a38eedc-29fe-489b-9fc2-ad5c0633fc14.PNG">
 
-5. Run the command 'search vstfpd' to search for the vulnerability by name
+5. Run the command `search vstfpd` to search for the vulnerability by name
 
 <img width="467" alt="SNIP-3" src="https://user-images.githubusercontent.com/98781636/167223056-f611ba3c-b94b-4a78-be36-7b87c9021d10.PNG">
 
-6. Once search reveals location of vulnerability, load it into the payload by typing 'use exploit/unix/ftp/vsftpd_234_backdoor'
+6. Once search reveals location of vulnerability, load it into the payload by typing `use exploit/unix/ftp/vsftpd_234_backdoor`
 
 <img width="278" alt="SNIP-4" src="https://user-images.githubusercontent.com/98781636/167223076-22351d64-0b65-49d5-a4e4-d6ece15ad55d.PNG">
 
-7. Type 'set RHOST [VICTIM IP]' to start attack on victim machine
+7. Type `set RHOST [VICTIM IP]` to start attack on victim machine
 
 <img width="346" alt="SNIP-5" src="https://user-images.githubusercontent.com/98781636/167223117-4365ed65-28c9-46dc-a8bc-7f8c5fc98057.PNG">
 
-8. To find IP address of Metasploitable machine type 'ifconfig' into the shell
+8. To find IP address of Metasploitable machine type `ifconfig` into the shell
 
-9. Run the 'run' command on the kali machine msf console
+9. Run the `run` command on the kali machine msf console
 
 <img width="404" alt="SNIP-6" src="https://user-images.githubusercontent.com/98781636/167223155-07305578-62a5-4fe9-a759-299e9cfce4dc.PNG">
 

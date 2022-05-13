@@ -39,7 +39,7 @@ Tools to download
 
 3. Start Metasploitable VM on Virtual box, login and password will be msfadmin
 
-4. Once Metasploitable VM is started, power on Kali Linux, once in Kali open terminal and run command 'msfconsole' to start metasploit shell
+4. Once Metasploitable VM is started, power on Kali Linux, once in Kali open terminal and run command >msfconsole to start metasploit shell
 
 <img width="89" alt="SNIP-2" src="https://user-images.githubusercontent.com/98781636/167217134-6a38eedc-29fe-489b-9fc2-ad5c0633fc14.PNG">
 
